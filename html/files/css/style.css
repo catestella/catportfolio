@@ -2008,6 +2008,8 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 	line-height: 36px;
 	font-family: "Lato";
 	font-weight: 300;
+	color: white;
+	width: 92%;
 	}
 	
 .testimonial-name {
@@ -2016,12 +2018,14 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	margin-top: 40px;
+	color: white;
 	}
 	
 .testimonial-namesub {
 	font-size: 13px;
 	line-height: 16px;
 	margin-top: 5px;
+	color: white;
 	}
 	
 	
@@ -2647,6 +2651,8 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
         width: 155%;
     }
 }
+
+
 
 
 
