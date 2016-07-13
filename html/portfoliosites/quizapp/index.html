@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Who's the Superhero?</title>
+
+	<!-- SUPERHERO ICON -->
+	<link rel="shortcut icon" href="img/icon4.png"/>
+
+	<!--GOOGLE FONT-->
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Orbitron|Architects+Daughter|Covered+By+Your+Grace|Bangers|Permanent+Marker|Luckiest+Guy' rel='stylesheet' type='text/css'>
+
+	<!--SUPERHERO ANIMATION-->
+	<link href='http://fonts.googleapis.com/css?family=Simonetta:900' rel='stylesheet' type='text/css'>
+
+	<!--CSS-->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!--BOOTSTRAP-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="title">Who's the Superhero?</h1>
+		<div class="row">
+			<form class="col-sm-7">
+				<div class="form-group">
+					<h4 id="question0"></h2>
+					<input id="answer0" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question1"></h2>
+					<input id="answer1" type="text" class="form-control">
+				</div class="form-group">
+				<div>
+					<h4 id="question2"></h2>
+					<input id="answer2" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<h4 id="question3"></h2>
+					<input id="answer3" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question4"></h2>
+					<input id="answer4" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question5"></h2>
+					<input id="answer5" type="text" class="form-control">
+				</div>
+				<!-- <div>
+					<h4 id="question6"></h2>
+					<input id="answer6" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question7"></h2>
+					<input id="answer7" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question8"></h2>
+					<input id="answer8" type="text" class="form-control">
+				</div>
+				<div>
+					<h4 id="question9"></h2>
+					<input id="answer9" type="text" class="form-control">
+				</div> -->
+				<br>
+				<button type="button" onclick="testResults()" class="btn btn-primary btn-lg">See Results</button>
+			</form>
+			<div class="col-sm-2 col-sm-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="superhero-photos">
+		<img src="img/superhero1.png">
+		<img src="img/superhero2.png">
+		<img src="img/superhero3.png">
+		<img src="img/superhero4.png">
+		<img src="img/superhero5.png">
+		<img src="img/superhero6.png">
+	</div>
+
+	<!--============SUPERHERO ANIMATION============-->
+<div id="container">
+  <div class="circle"></div>
+  <div class="body"></div>
+  <div class="capeleft"></div>
+  <div class="caperight"></div>
+  <div class="logo">
+    <div class="symbolleft">
+    </div>
+    <div class="symbolright">
+    </div>
+    <div class="symbolmiddle">
+    </div>
+  </div>
+  <div class="shadow"></div>
+  <div class="chin"></div>
+  <div class="lefteye"></div>
+  <div class="righteye"></div>
+</div>
+<!--============SUPERHERO ANIMATION============-->
+
+	<script src="js/main.js"></script>
+</body>
+</html>

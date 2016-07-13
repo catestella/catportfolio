@@ -1,0 +1,265 @@
+/*============ADDITIONAL CSS============*/
+body {
+	background: url("../img/background7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Bangers', cursive;
+  position: fixed;
+}
+
+.row {
+	font-family: 'Bangers', cursive;
+	color: #256697;
+}
+
+.row h4 {
+	font-size: 20px;
+}
+
+.row input {
+	width: 200px;
+	height: 28px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.superhero-photos img {
+	width: 133px;
+	margin: 5px;
+  margin-left: 25px;
+}
+
+.superhero-photos {
+	display: inline-block;
+	width: 500px;
+	position: relative;
+	left: 350px;
+	bottom: 490px;
+}
+/*============ADDITIONAL CSS============*/
+
+
+/*============CSS ORIGINALLY GIVEN============*/
+.title {
+	text-align:center;
+	font-size:60px;
+	font-family: 'Bangers', cursive;
+	color: #256697;
+	padding-left: 50px;
+}
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color:red;
+}
+
+h1.correct, h1.incorrect {
+	width:250px;
+	font-family: 'Bangers', cursive;
+	/*color: #256697;*/
+	font-size: 40px;
+  margin-left: 100px;
+}
+/*============CSS ORIGINALLY GIVEN============*/
+
+/*============SUPERHERO ANIMATION============*/
+/*html,body {
+  background: #203141;
+}*/
+
+#container {
+  margin:auto;
+  width: 300px;
+  position: relative;
+  bottom: 650px;
+  left: 500px;
+}
+
+.circle {
+  position: absolute;
+  width: 75px;
+  height: 60px;
+  left: 74px;
+  top: 18px;
+  background: #256697;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+}
+
+.body {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 102px;
+  left: 40px;
+  border-top: 100px solid #256697;
+  border-left: 70px solid transparent; 
+  border-right: 70px solid transparent; 
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  z-index: 3;
+}
+
+.capeleft {
+  position: absolute;
+  left: 33px;
+  top: 121px;
+  height: 0;
+  width: 0;
+  border-right: 50px solid #CC1414;
+  border-bottom: 70px solid #CC1414;
+  border-left: 20px solid transparent;
+  -webkit-animation: capewaveleft 5s infinite;
+}
+
+.caperight {
+  position: absolute;
+  left: 107px;
+  top: 121px;
+  height: 0;
+  width: 0;
+  border-right: 20px solid transparent;
+  border-bottom: 70px solid #CC1414;
+  border-left: 60px solid #CC1414;
+  -webkit-animation: capewave 5s infinite;
+}
+
+.caperight:hover {
+}
+
+@-webkit-keyframes capewave {
+  0% { border-right: 20px solid transparent; }
+  7% { border-right: 30px solid transparent; }
+  19% { border-right: 20px solid transparent; }
+}
+
+@-webkit-keyframes capewaveleft {
+  0% { }
+  5% { left: 53px; border-left: 0 solid transparent; }
+  20% { left: 33px; border-left: 20px solid transparent; }
+}
+
+.logo {
+  position: absolute;
+  top: 110px;
+  left: 84px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #6E96BB;
+  border: 5px solid #fff;
+  overflow: hidden;
+  z-index: 3;
+  transition: box-shadow 0.4s ease;
+}
+
+.logo span {
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  font-family: Simonetta;
+  font-size: 66px;
+  line-height: 0;
+  text-indent: -3px;
+}
+
+.logo:hover {
+  ,box-shadow: 0px 5px 25px #CBE9FC, 5px 0 25px #CBE9FC, -5px 0 25px #CBE9FC, 0 -5px 25px #CBE9FC;
+}
+
+.logo a {
+  color: #CC1414;
+  text-decoration: none;
+  display: block;
+}
+
+.shadow {
+  position: absolute;
+  top: 220px;
+  left: 66px;
+  height: 15px;
+  width: 90px;
+  background: #000;
+  opacity: 0.2;
+	border-radius: 90px / 15px;
+}
+
+.chin {
+  width: 80px;
+  position: absolute;
+  top: 77px;
+  left: 71px;
+  height: 0;
+  border-top: 25px solid #FFD8AD;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.lefteye {
+  position: absolute;
+  height: 5px;
+  width: 15px;
+  top: 59px;
+  left: 82px;
+  background: white;
+  -webkit-transform: skew(60deg);
+}
+
+.righteye {
+  position: absolute;
+  height: 5px;
+  width: 15px;
+  top: 59px;
+  left: 119px;
+  background: white;
+  -webkit-transform: skew(-60deg);
+}
+
+.logo:before {
+   content: "";
+   width: 200%;
+   height: 200%;
+   position: absolute;
+   top: -200%;
+   left: -225%;
+   z-index:4;
+
+   background-image: -webkit-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.9), rgba(255,255,255,0)); 
+   background-image: -moz-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.9), rgba(255,255,255,0));  
+    
+     -moz-transition: all 0.5s ease-out; 
+       -o-transition: all 0.5s ease-out; 
+  -webkit-transition: all 0.5s ease-out;
+      -ms-transition: all 0.5s ease-out;
+}
+
+.logo:hover:before {
+  top: 200%;
+  left: 200%;   
+}
+
+.symbolleft {
+  position: absolute;
+  height: 70px;
+  width: 15px;
+  background: #CC1414;
+}
+
+.symbolright {
+  position: absolute;
+  right: 0;
+  height: 70px;
+  width: 15px;
+  background: #CC1414;
+}
+
+.symbolmiddle {
+  position: absolute;
+  height: 10px;
+  width: 50px;
+  top: 50%;
+  background: #CC1414;
+}
+/*============SUPERHERO ANIMATION============*/
