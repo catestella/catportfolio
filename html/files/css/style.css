@@ -1119,7 +1119,7 @@ nav#main-nav .nav-inner ul li ul li a {
 ------------------------------------------------*/
 section { }
 
-.section-inner { padding-top: 120px; }
+/* .section-inner { padding-top: 120px; } */
 .notoppadding .section-inner { padding-top: 0px; }
 
 .horizontalsection .horizontalinner {
@@ -1781,7 +1781,7 @@ section { }
 /*---------------------------------------------- 
 16. COLUMNS GRID
 ------------------------------------------------*/
-.column-section { margin-top: -45px; }
+/* .column-section { margin-top: -45px; } */
 div .column-section:first-child { margin-top: -20px; }
 	
 .column { 
@@ -1803,7 +1803,7 @@ div .column-section:first-child { margin-top: -20px; }
 .three-fifth { width: 624px; }
 .four-fifth { width: 852px; }
 
-.wrapper-small .one-half { width: 360px; }
+.wrapper-small .one-half { width: 360px; margin-top: 40px;}
 .wrapper-small .one-third { width: 220px; }
 .wrapper-small .two-third { width: 500px; }
 
