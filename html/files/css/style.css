@@ -26,6 +26,7 @@
 
 /*-----------------------------------------------------------------------------------
 
+	01.	CUSTOM CSS
 	0.	RESET & CLEARFIX
 	1.	BASICS (body, headers, links, etc)
 	2. 	GENERAL ELEMENTS
@@ -51,7 +52,12 @@
 	
 -----------------------------------------------------------------------------------*/
 
-
+/*---------------------------------------------- 
+01. CUSTOM CSS
+------------------------------------------------*/
+section#work {
+	margin-top: 10%;
+}
 
 /*---------------------------------------------- 
 0. RESET & CLEARFIX
@@ -1766,7 +1772,7 @@ section { }
 	.split-right .split-bg { left: inherit; right: 0; z-index:0; }
 
 .split-half .split-bg { width: 50%; }
-.split-onethird .split-bg { width: 33%; background-color: #ff6568 }
+.split-onethird .split-bg { width: 33%; background-color: #ff6568; background-color: #5acae6 !important;  }
 .split-twothird .split-bg { width: 67%; }
 
 	
@@ -2524,7 +2530,8 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 .bordered #bodyborder-left, .bordered #bodyborder-right {
 	top: 0; bottom: 0;
 	width: 40px;
-	background-color: white;
+	background-color: transparent;
+	/* background-color: white; */
 	}
 	.bordered #bodyborder-left { left: -40px; }
 	.bordered #bodyborder-right { right: -40px; }
@@ -2550,7 +2557,8 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 		
 		
 /* All elements change when border is active */
-.bordered #page-content { padding: 40px; }
+/* .bordered #page-content { padding: 40px; } */
+.bordered #page-content { padding: 0; }
 .bordered header { width: calc(100% - 80px); top: 40px; left: 40px; }
 .bordered .non-overlay { top: inherit; left: inherit; width: 100%; }
 .bordered .header-inner { padding: 40px 40px; }
