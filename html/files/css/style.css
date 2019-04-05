@@ -1204,10 +1204,14 @@ section { }
 11. Portfolio (carousel)
 ------------------------------------------------*/
 .portfolio-carousel-item, .portfolio-slider-item {
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	position:relative;
 	background-position: center center;
 	background-size: cover;
+	background-position: 48% center;
+	background-repeat: no-repeat; 
+	min-height: calc(100vh - 80px) !important;
+	margin: 0 5% 5%;
 	}
 	
 .portfolio-carousel-item .imgoverlay {
@@ -2560,6 +2564,7 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 /* .bordered #page-content { padding: 40px; } */
 .bordered #page-content { padding: 0; }
 .bordered header { width: calc(100% - 80px); top: 40px; left: 40px; }
+/* .bordered header.project-header {background-color: #fff;} */
 .bordered .non-overlay { top: inherit; left: inherit; width: 100%; }
 .bordered .header-inner { padding: 40px 40px; }
 .bordered .non-overlay .header-inner { padding: 20px 20px; }
@@ -2658,6 +2663,11 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
     .spacer #testimonials .horizontalsection {
         width: 155%;
     }
+}
+
+.section-inner.wrapper-project {
+	width: 75%;
+	margin: 0 auto;
 }
 
 
