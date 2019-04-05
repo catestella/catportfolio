@@ -2670,6 +2670,73 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 861px) {
+	.text-light {
+		display: none;
+	}
+
+	.homepage-hero {
+		/* background: url('img/hero-profile.jpg'); */
+		display: block !important;
+		/* height: 99vw; */
+		/* height: 250px; */
+	}
+
+	.homepage-hero img {
+		width: 100%;
+	}
+
+	/* .hph-text {
+		position: absolute;
+		top: 37%;
+		margin: 20px;
+	} */
+
+	.hph-text {
+		position: absolute;
+		top: 45%;
+		margin: 20px;
+	}
+	.hph-text {
+		position: absolute;
+		top: 70vw;
+		margin: 5vw;
+	}
+
+	/* .hph-text h1 {
+		color: #ff6568;
+		font-size: 40px;
+	} */
+	.hph-text h1 {
+		color: #ff6568;
+		font-size: 11vw;
+		line-height: 16vw;
+	}
+
+	/* .hph-text h2 {
+		color: #fff;
+		margin-top: 0 !important;
+		font-size: 24px;
+		line-height: 15px;
+	} */
+	.hph-text h2 {
+		color: #fff;
+		margin-top: 0 !important;
+		font-size: 7vw;
+		line-height: .8;
+	}
+
+	/* .title-hph {
+		position: absolute;
+	} */
+}
+
+@media screen and (min-width: 862px) {
+	.homepage-hero {
+		display: none !important;
+	}
+}
+
 
 
 
