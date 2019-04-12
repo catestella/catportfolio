@@ -2,7 +2,7 @@
 
 This is my most recent web portfolio with experience including Art.com
  
-## Sections:
+### Sections:
 * About Me
 * Experience
 * Skills
