@@ -1,7 +1,5 @@
 # Catherine Estella-Blackstock - Web Developer
 
----
-
 This is my most recent web portfolio with experience including Art.com
  
 ## Sections:
